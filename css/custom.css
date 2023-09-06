@@ -1,0 +1,27 @@
+body {
+  background: #181e21;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434d51, #181e21);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434d51, #181e21); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.btn {
+  background-color: #a87d56;
+  transition-property: all;
+  transition-duration: 300ms;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #dddad4 ;
+  color: #181e21;
+}
+
+.btn-img {
+  background-color: #9faa9a;
+  transition-property: all;
+  transition-duration: 300ms;
+}
+.btn-img:hover {
+  background-color: #dddad4 ;
+  color: #181e21;
+}
